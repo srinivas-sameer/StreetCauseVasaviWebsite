@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+
+    <title>Street Cause Vasavi </title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/sc.jpg" />
+    <style>
+        #thumb {
+            height: 298px;
+            width: 538px;
+        }
+        
+        #th {
+            height: 500px;
+            width: 450px;
+            margin-right: 100px;
+        }
+        
+        footer {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-inverse navbar-expand-md py-0 fixed-top">
+        <a href="home.html" class="navbar-brand">Street Cause Vasavi</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation" style="color:black;">
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="departments.html" class="nav-link">Departments</a>
+                </li>
+                <li class="nav-item">
+                    <a href="executiveboard.html" class="nav-link">Board</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-12">
+                <img class="img-fluid" src="images/img.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <div class="container">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2><span class="text-muted">SCV</span></h2>
+                <p style="font-size:1.3rem"> Initially the group started with around 8 people in total. The events they did were not published and publicised properly, therefore not many people knew about the work we did and the reason we collected funds. Once this problem was analysed
+                    and understood we made sure that we correct our mistakes and improve ourselves in all the aspects we could. Every year has been a great learning and we are delighted to see more people joining us. The numbers have only been increasing
+                    each year i.e. starting from 8 people we became a group of 20 then 30 and today we are a group of 52 young budding leaders and future responsible citizens who not only pledge to serve the people in need but also to learn how to be
+                    compassionate towards fellow beings.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img id="th" src="images/sc.jpg">
+            </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-6 shadow-sm">
+                    <img id="thumb" src="images/slogan.png" alt="image">
+                    <div class="card-body">
+                        <p class="card-text"><strong>A life without a cause is a life without an effect!</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-6 shadow-sm">
+                    <img id="thumb" src="images/warcry.png">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <STRONG>WHO WANTS EASY!? NOT ME!</STRONG>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="contactus" style="background-image: url('images/pattern-bg.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h4 class="text-center" style="padding: 10px;margin-top: 5px; background-color: black; color:#ffffff">Contact Us</h4>
+                </div>
+                <div class="col-md-3">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="card border-light mb-3">
+                        <!-- <div class="card-header border-light">Get in Touch!</div> -->
+                        <div class="card-body text-light">
+                            <h5 class="card-title">
+                                Consult Now
+                            </h5>
+                            <hr style="background-color: #ffffff; height:1px;">
+                            <form action="enquiry.php" method="post" enctype="multipart/form-data">
+                                <label class="sr-only" for="servicetype">Service Type</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="border:none; background-color:  #303192; color:#ffffff"><i class="fa fa-question"></i></div>
+                                    </div>
+                                    <select id="servicetype" name="servicetype" class="form-control">
+                          <option disabled selected>What is the enquiry about?</option>
+                          <option disabled>------------</option>
+                          <option value="Funds">Funds</option>
+                          <option value="Projects">Projects</option>
+                          <option value="Events">Events</option>
+                          <option value="Other">Other</option>
+                        </select>
+                                </div>
+                                <label class="sr-only" for="EmailIdInput">Email ID</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="border:none; background-color:  #303192; color:#ffffff"><i class="fa fa-envelope" size="2x"></i></div>
+                                    </div>
+                                    <input type="email" class="form-control" id="EmailIdInput" name="EmailIdInput" placeholder="Email ID" required>
+                                </div>
+                                <label class="sr-only" for="contactNumberInput">Contact Number</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="border:none; background-color:  #303192; color:#ffffff"><i class="fa fa-phone"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="contactNumberInput" name="contactNumberInput" placeholder="Contact Number" required>
+                                </div>
+
+
+                                <label class="sr-only" for="messageInput">Message</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="border:none; background-color:  #303192; color:#ffffff"><i class="fa fa-comment"></i></div>
+                                    </div>
+                                    <textarea class="form-control" id="messageInput" name="messageInput" rows="3" placeholder="How can we help you?" required></textarea>
+                                </div>
+                                <button type="submit" class="btn" name="submit_consult_form" style="margin-top:10px; background-color:  #303192; color:#ffffff">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7" id="map" style="text-align: left;">
+                    <div style="position: relative;left:0;display: block">
+                        <div style="padding: 20px;padding-top:0; color:#ffffff">
+                            <div id="EmailInfo" style="padding: 10px;">
+                                <div style="background-color: #303192; display:inline; padding: 10px;">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div style="background-color: black; color:#ffffff; display:inline; padding: 10px;">
+                                    <h6 style="display: inline;">streetcausevasavi1920@gmail.com.com</h6>
+                                </div>
+                            </div>
+                            <div id="ContactInfo" style="padding: 10px;">
+                                <div style="background-color: #303192; display:inline; padding: 10px;">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div style="background-color: black; color:#ffffff; display:inline; padding: 10px;">
+                                    <h6 style="display: inline;">+91 9121817349</h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.650802848768!2d78.38042561487626!3d17.38052818808275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb942a2497f349%3A0x5c30ca8d2ffb8734!2sVasavi%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1573792346077!5m2!1sen!2sin"
+                                width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer style="background-color:black; padding: 10px; color:#ffffff;">
+        <div class="row">
+            <div class="col-sm-2 col-12 text-center">
+                <div>
+                    <a class="nav-link" style="display:inline;margin:0;padding:0;" target="_blank" href="https://www.facebook.com/Street-Cause-Vasavi-224145314282509/">Find us on : <i class="fa fa-facebook-f" style="font-size:20px; margin : 5px 2px 5px 10px; color : white;"></i></a>
+                    <a style="display:inline;padding:10px;margin:0;" class="nav-link" target="_blank" href=" https://www.instagram.com/streetcausevasavi/"><i class="fa fa-instagram " style="font-size:20px; margin : 5px 2px 5px 3px; color : white; "></i></a>
+                </div>
+            </div>
+
+            <div class="col-sm-8 col-12 text-center">&copy; 2019 Street Cause Vasavi</div>
+            <div class="col-sm-2 col-12 text-center">Made with &hearts; for people</div>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
+
+    <script>
+        $(function() {
+            $(document).scroll(function() {
+                var $nav = $("#mainNavbar ");
+                $nav.toggleClass("scrolled ", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>

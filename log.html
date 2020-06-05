@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="sc.jpg" />
+    <title>Coordinator</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/sc.jpg" />
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <style>
+        #but {
+            width: 6em;
+            border: 2px solid gray;
+            background: #ffe;
+            border-radius: 5px;
+        }
+        
+        #log {
+            display: block;
+            color: gray;
+            width: 100%;
+            line-height: 2em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        #logou {
+            display: block;
+            color: white;
+            width: 100%;
+            line-height: 2em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <form action="upload.php" method="POST" enctype="multipart/form-data">
+                <label>
+                    Update your reports:
+                    <input type="file" name="file">
+                </label>
+                <br>
+                 <label>
+                    Update your funds report:
+                    <input type="file" name="funds">
+                </label> 
+               <input type="submit" name = "submit" value="submit">
+            </form> -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome Coordinator!</h1>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                Upload Your Reports:
+                <input type="file" name="file">
+                <input type="submit" name="submit" value="Upload">
+            </form>
+
+            <br>
+            <br>
+            <form action="departments.html">
+                <button type="submit">Logout</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

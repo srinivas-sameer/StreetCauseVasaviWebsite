@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    font-family: "Nunito",sans-serif;
+}
+#mainNavbar{
+    font-size: 2rem;
+    font-weight: 400;
+}
+#mainNavbar .nav-link{
+    font-size:1.5rem;
+   font-weight:100;
+    color: black;
+}
+
+#mainNavbar .navbar-brand{
+    color: black;
+}
+
+#headingGroup span{
+    color: black;
+}
+
+.container
+{
+    margin-top: 40px;
+}
+
+.navbar.scrolled {
+    background: white;
+    transition: background 300ms;
+}
+
+

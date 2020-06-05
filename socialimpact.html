@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SocialImpact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/sc.jpg" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        nav {
+            background-color: black;
+            font-size: 1.3rem;
+        }
+        
+        img {
+            margin-left: 100px;
+            width: 50%;
+        }
+        
+        #but {
+            width: 6em;
+            border: 2px solid gray;
+            background: #ffe;
+            border-radius: 5px;
+        }
+        
+        #log {
+            display: block;
+            color: gray;
+            width: 100%;
+            line-height: 2em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        #ip,
+        #pass {
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-inverse navbar-expand-md py-0 fixed-top">
+        <a href="home.html" class="navbar-brand">Street Cause Vasavi</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation" style="color:black;">
+                  <span class="navbar-toggler-icon" ></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="departments.html" class="nav-link">Departments</a>
+                </li>
+                <li class="nav-item">
+                    <a href="executiveboard.html" class="nav-link">Board</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Social Impact</h1>
+
+                <p>A significant, positive change that addresses a pressing social challenge. Creating social impact is the result of a deliberate set of activities with a goal matching this definition.</p>
+            </div>
+        </div>
+
+        <div class="container marketing">
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Project Aadarna Orphanage.</h2>
+                    <p class="lead">Project Aadarana Orphanage Is taken up to help the children in dire need of necessary facilities. The orphanage lacked fans and lights, which was causing a lot of trouble for the children to read or sleep during the nights. The student
+                        force thus decided to help the orphanage by donating the required materials. The student force also made sure that every corner of the orphanage is covered, and took the help of a technician to complete the job.</p>
+                </div>
+                <div class="col-md-5 thumb">
+                    <img id="thumb" src="images/si.jpg">
+                </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="container">
+            <h3>Co ordinator Login:</h3>
+            <form action="authenticatesi.php" method="POST">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="username" id="ip" required />
+                        </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td>ID</td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="userid" id="ip">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td>
+                            <input type="password" id="pass" name="password" required>
+                            <span id="errorpassword"> </span>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input type="submit" name="login"></td>
+                    </tr>
+                </table>
+            </form>
+            <hr class="featurette-divider">
+        </div>
+
+        <footer style="background-color:black; padding: 10px; color:#ffffff;">
+            <div class="row">
+                <div class="col-sm-2 col-12 text-center">
+                    <div>
+                        <a class="nav-link" style="display:inline;margin:0;padding:0;" target="_blank" href="https://www.facebook.com/Street-Cause-Vasavi-224145314282509/">Find us on : <i class="fa fa-facebook-f" style="font-size:20px; margin : 5px 2px 5px 10px; color : white;"></i></a>
+                        <a style="display:inline;padding:10px;margin:0;" class="nav-link" target="_blank" href=" https://www.instagram.com/streetcausevasavi/"><i class="fa fa-instagram " style="font-size:20px; margin : 5px 2px 5px 3px; color : white; "></i></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-12 text-center">&copy; 2019 Street Cause Vasavi</div>
+                <div class="col-sm-2 col-12 text-center">Made with &hearts; for people</div>
+
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
