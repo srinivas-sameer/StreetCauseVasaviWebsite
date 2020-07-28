@@ -26,6 +26,7 @@
         if($count == 2){  
 
             echo "<h1><center> Login successful </center></h1>"; 
+	    session_start();
             header('Location: ./log.html');
         }  
         else{  
