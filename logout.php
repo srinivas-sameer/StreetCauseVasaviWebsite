@@ -1,5 +1,5 @@
 <?php
 Session_destroy();
-header('Location: ');
+header('Location: ./home.html ');
 
 ?>
