@@ -27,6 +27,7 @@
 
             echo "<h1><center> Login successful </center></h1>"; 
 	    session_start();
+	    $_SESSION["user"] = $username;
             header('Location: ./log.html');
         }  
         else{  
