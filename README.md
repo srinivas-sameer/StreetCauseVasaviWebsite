@@ -1,4 +1,4 @@
-# streetcausewebsite
+# StreetCauseVasaviWebsite
  A website for Street Cause Vasavi to maintain a record of the every coordinator's performance.
  A coordinator has a seperate login and a board member will have a seperate login.
  There will be predefined ID and password for each board member and coordinator.
